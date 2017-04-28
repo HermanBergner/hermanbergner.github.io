@@ -1,0 +1,5 @@
+class Dna {
+  constructor() {
+
+  }
+}

@@ -1,13 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script type="text/javascript" src="js/core.js"></script>
+  <script type="text/javascript" src="js/agent.js"></script>
+  <script type="text/javascript" src="js/nutriment.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.8/p5.min.js"></script>
+  <link rel="stylesheet" href="css/main.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Welcome</h1>
+
+
+  <div id="container"></div>
+
+  <div class="container">
+    <div class="flex">
+      <span><span class="colorize">A</span>gents <span class="colorize">L</span>eft: <span id="agentCount"></span></span>
+      <button class="float-right button" type="button" name="button" onclick="reset()">Restart</button>
+    </div>
 </body>
 </html>
