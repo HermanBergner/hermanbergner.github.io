@@ -1,0 +1,11 @@
+{
+  "name": "hermanbergner.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/HermanBergner/hermanbergner.github.io.git",
+  "author": "Herman Bergner <hermanbergner@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.11.0"
+  }
+}
